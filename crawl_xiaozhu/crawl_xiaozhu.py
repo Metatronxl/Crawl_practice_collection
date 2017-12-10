@@ -1,4 +1,4 @@
-#爬取网站为小猪短租网
+#爬取网站为小猪北京短租网http://bj.xiaozhu.com/search-duanzufang-p1-0/
 
 from bs4 import BeautifulSoup
 import requests
