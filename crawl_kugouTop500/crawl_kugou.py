@@ -11,7 +11,7 @@ headers = {
 def get_web(url):
     web_data = requests.get(url,headers=headers)
     soup = BeautifulSoup(web_data.content,'lxml')
-    ranks = soup.select('span.pc_temp_num > strong')
+    ranks = soup.select('span.pc_temp_num')
     titles = soup.select('#rankWrap > div.pc_temp_songlist > ul > li > a')
     times = soup.select('#rankWrap > div.pc_temp_songlist > ul > li > span.pc_temp_tips_r > span')
     urls = soup.select('#rankWrap > div.pc_temp_songlist > ul > li > a')
@@ -24,6 +24,7 @@ def get_web(url):
             'url':title.get('href').strip()
         }
         print(data)
+
 
 if __name__ == '__main__':
     urls = ['http://www.kugou.com/yy/rank/home/{}-8888.html'.format(number) for number in range(1,24)]
