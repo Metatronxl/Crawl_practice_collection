@@ -21,3 +21,15 @@
 > 工具：requests，Re模块
  
 > 爬取的网站为斗破苍穹小说网,本次demo主要是学习re模块的使用,其中用的最多的是(.*?)语法,可以匹配括号里的任何内容
+
+---
+### demo4：爬取豆瓣图书Top250
+> 工具：requests，lxml
+
+> 学习lxml的使用
+```
+注意点：
+          infos = selector.xpath('//*[@id="content"]/div/div[1]/div/table')
+          当table并没有包含tbody时，浏览器会自动补充tbody，而lxml没有这么做，所以会产生你的xpath没有找到的问题。
+```
+> csv的使用
