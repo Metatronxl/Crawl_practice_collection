@@ -33,6 +33,11 @@ def get_info(url):
         all_info_list.append(info_list)
     time.sleep(1)
 
+
+#sheet.write(r,c,data)
+# r means rows
+# c means cols
+
 if __name__ == '__main__':
     urls = ['https://book.douban.com/top250?start={}'.format(str(i)) for i in range(0,250,25)]
     for url in urls:
