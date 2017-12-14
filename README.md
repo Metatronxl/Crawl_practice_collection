@@ -35,3 +35,8 @@
 > csv的使用
 
 > [xlwt 官网api文档](https://xlwt.readthedocs.io/en/latest/api.html)
+
+---
+### demo5：爬取pexles网站的图片
+
+> 主要练习如何批量保存图片到本地
