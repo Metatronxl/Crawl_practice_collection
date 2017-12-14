@@ -24,7 +24,7 @@
 
 ---
 ### demo4：爬取豆瓣图书Top250
-> 工具：requests，lxml
+> 工具：requests，lxml，xlwt
 
 > 学习lxml的使用
 ```
@@ -33,3 +33,5 @@
           当table并没有包含tbody时，浏览器会自动补充tbody，而lxml没有这么做，所以会产生你的xpath没有找到的问题。
 ```
 > csv的使用
+
+> [xlwt 官网api文档](https://xlwt.readthedocs.io/en/latest/api.html)
