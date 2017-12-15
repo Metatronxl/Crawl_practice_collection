@@ -40,3 +40,12 @@
 ### demo5：爬取pexles网站的图片
 
 > 主要练习如何批量保存图片到本地
+
+---
+### demo6:爬取豆瓣音乐Top250的详细信息至MongoDB
+- 工具：pymongo
+> 练习xpath与正则的混合使用
+
+> 练习mongoDB的使用
+
+![mongoDB截图](https://github.com/Metatronxl/Crawl_practice_collection/blob/master/src_img/douban_music_top250.png);
