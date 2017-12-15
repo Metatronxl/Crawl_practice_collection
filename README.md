@@ -49,3 +49,10 @@
 > 练习mongoDB的使用
 
 ![mongoDB截图](https://github.com/Metatronxl/Crawl_practice_collection/blob/master/src_img/douban_music_top250.png)
+
+---
+### demo7：python多进程
+> multiprocessing真好用啊：）
+
+```下次
+```
