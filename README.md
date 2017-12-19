@@ -63,3 +63,5 @@
 
 > 2.使用cookie进行模拟登陆
 
+![weibo analyse](https://github.com/Metatronxl/Crawl_practice_collection/blob/master/src_img/weibo.png)
+
